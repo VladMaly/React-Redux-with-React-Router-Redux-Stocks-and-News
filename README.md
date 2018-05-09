@@ -25,19 +25,19 @@ Navigate to the folder level where package.json is in console and run 'npm insta
 
 After 'npm install'/'yarn install' finishes running, run in the same place 'npm start' or 'npm run dev'. A webpage should auto open in browser.
 
-#Useful Pluggins for VS Code : 'Auto Close Tag', 'Auto Import', 'TODO Highlight', 'language-stylus'
+# Useful Pluggins for VS Code : 'Auto Close Tag', 'Auto Import', 'TODO Highlight', 'language-stylus'
 
-#If you prefer SCSS over Stylus:
+# If you prefer SCSS over Stylus:
 - yarn add node-sass
 - yarn add sass-loader
 - get rid of stylus-loader in package.json or remove it through command line
 - change webpack files, prod and dev to recognize sass/scss
 - change the ending of your styling files from '.styl' across the project
 
-#Useful VS Code keyboard shortcuts to know: 
+# Useful VS Code keyboard shortcuts to know: 
 - Indent-left/Indent Right: 'Ctrl + [' and 'ctrl + ]' on selected selected lines.
 - Format Document: Windows-> 'Shift + Alt + F'. Max-> 'Shift + Option + F'. Ubuntu-> 'Ctrl + Shift + I'.
 - Multi Line comments: Windows-> 'Ctrl + /'. Mac-> 'Command ⌘ + /'.  on selected lines. Multiple line comments are easier to uncomment sections of with keyboard commands then using '/*', '*/' syntax.
 
-#TODO before launch:
+# TODO before launch:
 - figure out a way to have both local and global styl files working simultaneously.
